@@ -8,15 +8,15 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            xvzf
-tagline:          "prepend tar"
-description:      "Extracted view of my projects - partly in english, partly german"
-url:              https://github.com/xvzf
-baseurl:          /
+title:            JDC
+tagline:          "Junior Defender Camp 2017"
+description:      "Junior Defender Camp 2017"
+url:              https://github.com/ntu-offsec
+baseurl:          /jdc/
 
 author:
-  name:           'Matthias Riegler'
-  url:            http://blog.xvzf.tech
+  name:           'NTU OFFSEC'
+  url:            httpw://www.facebook.com/ntu.offsec
 
 paginate:         1
 
