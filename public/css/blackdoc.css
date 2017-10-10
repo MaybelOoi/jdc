@@ -30,65 +30,64 @@ ______ _            _   ______
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;/*"PT Sans", Helvetica, Arial, sans-serif;*/
 }
 
 body {
-  color: #848482;
-  background-color: #000000;
+  color: #f9f9f9;
+  background-color: #333333;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'EB Garamond', serif;
-  color: #aaa;
+  font-family: 'Open Sans', sans-serif;
+  color: #f9f9f9;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  font-family: 'EB Garamond', serif;
-  color: #50585D;
+  font-family: 'Open Sans', sans-serif;
+  color: #f9f9f9;
   font-kerning: auto;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
   font-synthesis: weight style;
 }
 
 a {
-  color: #ffeb99;
-  transition: color ease 0.3s;
+  color: #f9f9f9;
 }
 
 a:hover {
-  color: #caad00;
+  color: #d64937;
 }
 
 .btn {
   display: inline-block;
   padding: .25rem 1rem;
-  font-family: "PT Sans", sans-serif;
-  color: #ebcb8b;
-  border: .1rem solid #32343c;
+  font-family: 'Open Sans', sans-serif;
+  color: #d64937;
+  border: .1rem solid #2d2d2d;
   border-radius: .1rem;
 }
 
 .btn:hover,
 .btn:focus {
-  color: #26282d;
-  background-color: #ebcb8b;
-  border-color: #ebcb8b;
+  color: #d64937;
+  background-color: #d64937;
+  border-color: #d64937;
 }
 
 strong, b {
-  color: #848471;
+  color: #f9f9f9;
 }
 /* Code */
 
 code {
-  color: #993030;
+  color: #d64937;
   white-space: pre-wrap;
-  background-color: #222;
+  background-color: #2d2d2d;
 }
 
 pre {
-  background-color: #222;
+  background-color: #2d2d2d;
 }
 
 pre { white-space: pre; overflow: auto !important; }
@@ -97,7 +96,6 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: rgba(235, 242, 246, 0.29) 1px solid;
   margin: 1.2em 0;
   padding: 0;
 }
@@ -148,7 +146,7 @@ tbody tr:nth-child(odd) th {
 
 /* Gist */
 .gist-data {
-  background-color: #222 !important;
+  background-color: #2d2d2d !important;
   border-bottom: 1px solid #333 !important;;
 }
 .gist .markdown-body {
@@ -176,8 +174,8 @@ tbody tr:nth-child(odd) th {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #000;
+  color: #f9f9f9;
+  background-color: #2d2d2d;
   overflow: auto;
 }
 @media (min-width: 48em) {
@@ -193,14 +191,14 @@ tbody tr:nth-child(odd) th {
 
 /* Sidebar links */
 .sidebar a {
-  color: #caad00;
+  color: #d64937;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #caad00;
+  color: #d64937;
   margin-top: 0;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 2.25rem;
 
 }
@@ -274,7 +272,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #caad00;
+  color: #d64937;
 }
 
 /*
@@ -302,87 +300,6 @@ a.sidebar-nav-item:focus {
 }
 
 
-
-/*
- * Themes
- *
- * BlackDoc includes optional themes to color the sidebar and links
- * within blog posts. To use, add the class of your choosing to the `body`.
- */
-
-/* Base16 (http://chriskempson.github.io/base16/#default) */
-
-/* Red */
-.theme-base-08 .sidebar {
-  background-color: #ac4142;
-}
-.theme-base-08 .content a,
-.theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
-}
-
-/* Orange */
-.theme-base-09 .sidebar {
-  background-color: #d28445;
-}
-.theme-base-09 .content a,
-.theme-base-09 .related-posts li a:hover {
-  color: #d28445;
-}
-
-/* Yellow */
-.theme-base-0a .sidebar {
-  background-color: #f4bf75;
-}
-.theme-base-0a .content a,
-.theme-base-0a .related-posts li a:hover {
-  color: #f4bf75;
-}
-
-/* Green */
-.theme-base-0b .sidebar {
-  background-color: #90a959;
-}
-.theme-base-0b .content a,
-.theme-base-0b .related-posts li a:hover {
-  color: #90a959;
-}
-
-/* Cyan */
-.theme-base-0c .sidebar {
-  background-color: #75b5aa;
-}
-.theme-base-0c .content a,
-.theme-base-0c .related-posts li a:hover {
-  color: #75b5aa;
-}
-
-/* Blue */
-.theme-base-0d .sidebar {
-  background-color: #6a9fb5;
-}
-.theme-base-0d .content a,
-.theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
-}
-
-/* Magenta */
-.theme-base-0e .sidebar {
-  background-color: #aa759f;
-}
-.theme-base-0e .content a,
-.theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
-}
-
-/* Brown */
-.theme-base-0f .sidebar {
-  background-color: #8f5536;
-}
-.theme-base-0f .content a,
-.theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
-}
 
 /* Thin Scrollbar */
 ::-webkit-scrollbar {

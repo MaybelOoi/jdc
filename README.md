@@ -1,3 +1,14 @@
+# License
+All posts belong to me. You are not allowed to copy, puplish or modify them.
+
+The Theme is under the same License as BlackDoc! Feel free to use it!
+
+
+# The design is based on BlackDoc
+It was modified by myself to match the Numix color scheme.
+
+
+
 # BlackDoc
 
 BlackDoc is a two-column [Jekyll](http://jekyllrb.com) theme that's ideal for websites that require a master-detail layout for viewing of content. It's based on [Poole](http://getpoole.com), the Jekyll butler, and the [Hyde](http://hyde.getpoole.com) theme.
