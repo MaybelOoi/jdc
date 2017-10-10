@@ -16,7 +16,8 @@ baseurl:          /jdc/
 
 author:
   name:           'NTU OFFSEC'
-  url:            httpw://www.facebook.com/ntu.offsec
+  url:            https://www.facebook.com/ntu.offsec
+  email:          ntu.offsec@gmail.com
 
 paginate:         1
 

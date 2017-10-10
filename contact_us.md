@@ -9,4 +9,4 @@ NTU OFFSEC
 
 Singapore, Nanyang Technological University
 
-ntu.offsec@gmail.com
+[ntu.offsec@gmail.com](mailto:ntu.offsec@gmail.com)
