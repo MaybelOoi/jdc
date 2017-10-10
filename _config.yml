@@ -8,20 +8,20 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            BlackDoc
-tagline:          Black Theme for Jekyll
+title:            JDC
+tagline:          Junior Defender Camp 2017
 description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
-url:              https://github.com/karloespiritu/blackdoc
+url:              https://github.com/ntu-offsec/jdc
 baseurl:          /
 
 author:
-  name:           'Karlo Espiritu'
-  url:            https://twitter.com/karloespiritu
+  name:           'NTU OFFSEC'
+  url:            https://github.com/ntu-offsec
 
 paginate:         5
 
 # Custom vars
 version:          1.0.1
 
-github:
-  repo:           https://github.com/karloespiritu/blackdoc
+github:           9e97e70d93c36b667cbe4db6195a41ee4b165aec
+repo:             https://github.com/ntu-offsec/jdc
